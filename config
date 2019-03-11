@@ -1,0 +1,14 @@
+<?php
+
+$server = "localhost";
+$user = "id8008084_sas";
+$password = "nabilwicaksono";
+$nama_database = "id8008084_akademik";
+
+$db = mysqli_connect($server, $user, $password, $nama_database);
+
+if( !$db ){
+    die("Gagal terhubung dengan database: " . mysqli_connect_error());
+}
+
+?>
